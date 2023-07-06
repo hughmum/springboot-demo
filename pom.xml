@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <groupId>com.mu.boot</groupId>
+    <artifactId>master</artifactId>
+    <version>v1.0</version>
+    <name>master</name>
+    <description>基于springboot 2.3.0版本集成各种常用中间件的</description>
+
+    <modules>
+        <module>01_helloword</module>
+        <module>02_thymeleaf</module>
+        <module>03_simplifycode</module>
+        <module>04_jta-atomikos</module>
+        <module>05_distributed_lock</module>
+        <module>06_docker_build</module>
+        <module>07_release_build</module>
+        <module>08_my_spring_boot_starter_parent</module>
+        <module>09_dobbo_parent</module>
+        <module>10_api_limit</module>
+        <module>11_spring_data_jpa</module>
+        <module>12_druid_monitor</module>
+        <module>13_spring_boot_admin</module>
+        <module>14_mybatis_plus</module>
+        <module>15_shiro</module>
+        <module>16_security_jwt</module>
+        <module>17_swagger</module>
+        <module>18_netty_websocket</module>
+        <module>19_redis_session</module>
+        <module>20_config_switch</module>
+        <module>21_webdemo</module>
+        <module>22_rocketmq</module>
+        <module>23_smartdoc</module>
+        <module>24_fastdfs</module>
+        <module>25_minio</module>
+        <module>26_validation</module>
+        <module>27_email</module>
+        <module>28_jdbctemplate</module>
+        <module>29_lowcode</module>
+        <module>30_sharding_jdbc</module>
+        <module>31_distributed_job</module>
+        <module>32_repeatsubmit</module>
+    </modules>
+
+</project>
