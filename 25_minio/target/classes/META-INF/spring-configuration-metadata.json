@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "minio",
+      "type": "com.mu.boot.minio.config.MinioConfig",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "minio.access-key",
+      "type": "java.lang.String",
+      "description": "唯一标识的账户",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.default-bucket-name",
+      "type": "java.lang.String",
+      "description": "默认使用的桶名称",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.endpoint",
+      "type": "java.lang.String",
+      "description": "minio部署的机器ip地址",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.port",
+      "type": "java.lang.Integer",
+      "description": "minio使用的端口",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.secret-key",
+      "type": "java.lang.String",
+      "description": "账户的密码",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.secure",
+      "type": "java.lang.Boolean",
+      "description": "如果是true，则用的是https而不是http,默认值是true",
+      "sourceType": "com.mu.boot.minio.config.MinioConfig"
+    }
+  ],
+  "hints": []
+}

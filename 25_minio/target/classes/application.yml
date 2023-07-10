@@ -1,0 +1,15 @@
+server:
+  port: 8025
+minio:
+  #minio����Ļ���ip��ַ
+  endpoint: 192.168.189.10
+  #minioʹ�õĶ˿�
+  port: 9000
+  #Ψһ��ʶ���˻�
+  accessKey: minioadmin
+  #�˻�������
+  secretKey: minioadmin
+  #�Ƿ�ʹ��https
+  secure: false
+  #����ʹ�õ�Ͱ����
+  defaultBucketName: test

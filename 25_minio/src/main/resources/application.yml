@@ -2,7 +2,7 @@ server:
   port: 8025
 minio:
   #minio部署的机器ip地址
-  endpoint: 192.168.94.128
+  endpoint: 192.168.189.10
   #minio使用的端口
   port: 9000
   #唯一标识的账户
